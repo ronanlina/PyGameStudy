@@ -94,3 +94,19 @@ class Bat(pygame.sprite.Sprite):
     def movedown(self):
         self.movepos[1] = self.movepos[1] + (self.speed)
         self.state = "movedown"
+
+# transfer segment later to main py file
+# player = Bat()
+
+# for event in pygame.event.get():
+#     if event.type == QUIT:
+#         pass
+#     elif event.type == KEYDOWN:
+#         if event.key == K_UP:
+#             player.moveup()
+#         if event.key == K_DOWN:
+#             player.movedown()
+#     elif event.type == KEYUP:
+#         if event.key == K_UP or event.key == K_DOWN:
+#             player.movepos = [0,0]
+#             player.state = "still"
